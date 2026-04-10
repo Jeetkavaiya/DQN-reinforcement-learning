@@ -277,9 +277,3 @@ Each notebook contains complete training loops. Simply run all cells to reproduc
 3. Schaul, T., et al. (2016). *Prioritized Experience Replay*. ICLR. [[Paper]](https://arxiv.org/abs/1511.05952)
 4. [Gymnasium Documentation](https://gymnasium.farama.org/)
 5. [PyTorch Documentation](https://pytorch.org/docs/)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
