@@ -5,7 +5,7 @@
 [![Gymnasium](https://img.shields.io/badge/Gymnasium-1.2.1-green)](https://gymnasium.farama.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A **from-scratch** implementation of Deep Q-Network (DQN) and Double DQN algorithms using PyTorch - applied to a custom Wumpus World grid-world, CartPole-v1, and MountainCar-v0. This project demonstrates deep reinforcement learning fundamentals including experience replay, target networks, and techniques to reduce overestimation bias.
+A complete implementation of Deep Q-Network (DQN)and Double DQN algorithms using PyTorch from scratch - applied to a custom Wumpus World grid-world, CartPole-v1, and MountainCar-v0. This project demonstrates deep reinforcement learning fundamentals including experience replay, target networks, and techniques to reduce overestimation bias.
 
 <p align="center">
   <img src="images/wumpus_world_environment.jpg" width="420" alt="Wumpus World Environment"/>
