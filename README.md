@@ -153,10 +153,10 @@ For each episode:
 ### Training Visualizations (per environment)
 
 Each notebook generates:
-- 📈 **Reward curve** — total reward per episode during training
-- 📉 **Loss curve** — training loss per episode
-- 📊 **Epsilon decay** — exploration rate over time
-- 🎯 **Evaluation results** — greedy policy performance (10+ episodes)
+- 📈 **Reward curve** - total reward per episode during training
+- 📉 **Loss curve** - training loss per episode
+- 📊 **Epsilon decay** - exploration rate over time
+- 🎯 **Evaluation results** - greedy policy performance (10+ episodes)
 
 ---
 
@@ -211,7 +211,7 @@ Side-by-side DQN vs. Double DQN comparison across all three environments:
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/deep-q-networks-wumpus-world.git
+git clone https://github.com/Jeetkavaiya/DQN-reinforcement-learning.git
 cd deep-q-networks-wumpus-world
 
 # Create virtual environment
@@ -235,9 +235,9 @@ jupyter notebook
 ```
 
 Open the notebooks in order:
-1. **`Part_1_Neural_Network_Setup.ipynb`** — Explore NN architectures for different RL spaces
-2. **`Part_2_DQN_Implementation.ipynb`** — Train & evaluate vanilla DQN on all 3 environments
-3. **`Part_3_Double_DQN_Comparison.ipynb`** — Train Double DQN & compare against vanilla DQN
+1. **`Part_1_Neural_Network_Setup.ipynb`** - Explore NN architectures for different RL spaces
+2. **`Part_2_DQN_Implementation.ipynb`** - Train & evaluate vanilla DQN on all 3 environments
+3. **`Part_3_Double_DQN_Comparison.ipynb`** - Train Double DQN & compare against vanilla DQN
 
 ### Load Pre-trained Models
 
