@@ -5,7 +5,7 @@
 [![Gymnasium](https://img.shields.io/badge/Gymnasium-1.2.1-green)](https://gymnasium.farama.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A **from-scratch** implementation of Deep Q-Network (DQN) and Double DQN algorithms using PyTorch — applied to a custom Wumpus World grid-world, CartPole-v1, and MountainCar-v0. This project demonstrates deep reinforcement learning fundamentals including experience replay, target networks, and techniques to reduce overestimation bias.
+A **from-scratch** implementation of Deep Q-Network (DQN) and Double DQN algorithms using PyTorch - applied to a custom Wumpus World grid-world, CartPole-v1, and MountainCar-v0. This project demonstrates deep reinforcement learning fundamentals including experience replay, target networks, and techniques to reduce overestimation bias.
 
 <p align="center">
   <img src="images/wumpus_world_environment.jpg" width="420" alt="Wumpus World Environment"/>
@@ -31,8 +31,8 @@ A **from-scratch** implementation of Deep Q-Network (DQN) and Double DQN algorit
 
 ## ✨ Highlights
 
-- **Built entirely from scratch** — no RL libraries (Stable-Baselines, RLlib, etc.); only PyTorch for neural networks
-- **Custom Gymnasium environment** — a 6×6 Wumpus World with multiple observation/action space configurations
+- **Built entirely from scratch** - no RL libraries (Stable-Baselines, RLlib, etc.); only PyTorch for neural networks
+- **Custom Gymnasium environment** - a 6×6 Wumpus World with multiple observation/action space configurations
 - **12 neural network configurations** explored across 4 observation types × 3 action types
 - **DQN + Double DQN** implemented, trained, and compared across 3 distinct environments
 - **All agents solve** their respective environments (CartPole > 470, MountainCar > −110)
@@ -49,16 +49,16 @@ deep-q-networks-wumpus-world/
 ├── 📓 Part_2_DQN_Implementation.ipynb            # Vanilla DQN — training & evaluation
 ├── 📓 Part_3_Double_DQN_Comparison.ipynb         # Double DQN + comparative analysis
 │
-├── 🐍 environment.py                             # Custom Wumpus World (Gymnasium API)
+├──  environment.py                                # Custom Wumpus World (Gymnasium API)
 ├── 📄 requirements.txt                           # Python dependencies
 │
-├── 📁 trained_model_files/                        # Saved PyTorch model weights (.pth)
-│   ├── a2_part_2_dqn_gridworld_*.pth
-│   ├── a2_part_2_dqn_cartpole_*.pth
-│   ├── a2_part_2_dqn_mountaincar_*.pth
-│   ├── a2_part_3_ddqn_gridworld_*.pth
-│   ├── a2_part_3_ddqn_cartpole_*.pth
-│   └── a2_part_3_ddqn_mountaincar_*.pth
+├── 📁 trained_model_files/                     
+│   ├── part_2_dqn_gridworld.pth
+│   ├── part_2_dqn_cartpole.pth
+│   ├── part_2_dqn_mountaincar.pth
+│   ├── part_3_ddqn_gridworld.pth
+│   ├── part_3_ddqn_cartpole.pth
+│   └── part_3_ddqn_mountaincar.pth
 │
 ├── 📁 images/                                     # Environment rendering sprites & diagrams
 │   ├── wumpus_world_environment.jpg
